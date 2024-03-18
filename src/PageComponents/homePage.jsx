@@ -19,7 +19,7 @@ import {
 import "../App.css";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import ReactCardFlip from "react-card-flip";
-import { MouseParallax } from "react-just-parallax";
+import '../App.css';
 
 function HomePage() {
   library.add(
@@ -58,8 +58,8 @@ function HomePage() {
       <section className="scroll-smooth w-screen overflow-y-hidden scrollbar-hide">
         <section className="relative w-screen h-fit xm:h-max">
           <div
-            className="bg-fixed bg-cover w-screen h-fit  bg-no-repeat"
-            style={{ backgroundImage: 'url("../images/main-box.png")' }}
+            className=" w-screen h-fit"
+            id="main-box"
           >
             <div className=" ">
               <div className=" py-4 px-4 2xl:flex 2xl:flex-row 2xl:gap-8 2xl:justify-between">
@@ -77,13 +77,11 @@ function HomePage() {
                   </h1>
                 </div>
                 <div className=" flex justify-center items-center text-center 2xl:mr-20 2xl:mt-20 3xl:mr-24 3xl:mt-24">
-                  <MouseParallax>
                     <img
                       src="../images/MAIN-BOX-PIC.png"
                       alt=""
                       className=" lg:w-96 lg:h-96"
                     />
-                  </MouseParallax>
                 </div>
               </div>
               <div className=" text-center flex flex-col gap-4 pb-16 xm:flex xm:flex-row xm:gap-8 xm:place-content-center lg:my-16 2xl:place-content-start 2xl:my-0 2xl:pl-8 2xl:pb-24">
@@ -177,11 +175,6 @@ function HomePage() {
           </h1>
           <div className="bg-lime-100 3xl:flex 3xl:flex-row 3xl:gap-4 3xl:justify-evenly ">
             <div className=" flex flex-col gap-8 justify-center items-center xm:flex-row xm:gap-8 xm:justify-evenly">
-              <div className="pb-16">
-                <div className=" mix-blend-multiply filter blur-xl animate-blob opacity-70 absolute  left-8  w-64 h-64 rounded-full bg-purple-300"></div>
-                <div className=" mix-blend-multiply filter blur-xl animate-blob opacity-70 absolute  left-24 w-64 h-64 rounded-full bg-yellow-300"></div>
-                <div className=" mix-blend-multiply filter blur-xl animate-blob opacity-70 absolute  left-40 w-64 h-64 rounded-full bg-pink-300"></div>
-              </div>
               <div className="mx-4 my-4 relative">
                 <ReactCardFlip flipDirection="horizontal" isFlipped={flipWeb}>
                   <div
@@ -311,11 +304,6 @@ function HomePage() {
                     </p>
                   </div>
                 </ReactCardFlip>
-              </div>
-              <div className="mx-4 my-4">
-                <div className=" mix-blend-multiply filter blur-xl animate-blob opacity-70 absolute right-8    w-64 h-64 rounded-full bg-purple-300"></div>
-                <div className=" mix-blend-multiply filter blur-xl animate-blob opacity-70 absolute right-24   w-64 h-64 rounded-full bg-yellow-300"></div>
-                <div className=" mix-blend-multiply filter blur-xl animate-blob opacity-70 absolute right-40   w-64 h-64 rounded-full bg-pink-300"></div>
               </div>
             </div>
           </div>
