@@ -509,7 +509,7 @@ function HomePage() {
               </div>
               <div className="">
             <h1 className="text-white text-center font-basicHeading text-3xl">
-              Get Us on Mapss
+              Get Us on Maps
             </h1>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7210.395256932822!2d74.6326986376564!3d25.36469220502349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3968c2550919a8a7%3A0xb52d32f05198ba59!2sSector%205%2C%20R%20C%20Vyas%20Colony%2C%20Bhilwara%2C%20Rajasthan%20311001!5e0!3m2!1sen!2sin!4v1710324788989!5m2!1sen!2sin"
