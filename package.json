@@ -1,4 +1,5 @@
 {
+  "homepage": "https://TheTriFusion.github.io/thetrifusion",
   "name": "tri-fusion-tech",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +16,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@uiball/loaders": "^1.3.1",
     "autoprefixer": "^10.4.18",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.35",
     "react": "^18.2.0",
     "react-card-flip": "^1.2.2",
@@ -31,6 +33,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

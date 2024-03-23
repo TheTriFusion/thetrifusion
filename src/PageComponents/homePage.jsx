@@ -500,7 +500,7 @@ function HomePage() {
                     className="text-white text-lg "
                   />
                 </Link>
-                <Link href="https://www.linkedin.com/in/the-trifusion-4660032b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                <Link href="https://www.linkedin.com/company/the-trifusion/">
                   <FontAwesomeIcon
                     icon={faLinkedinIn}
                     className=" text-white text-lg "
