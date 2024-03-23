@@ -65,8 +65,8 @@ function HomePage() {
               <div className=" py-4 px-4 2xl:flex 2xl:flex-row 2xl:gap-8 2xl:justify-between">
                 <div className=" text-center 2xl:text-left 2xl:w-max xl:pt-8 xl:pl-8">
                   <h1 className="font-bold text-5xl text-[#944E63] font-mainHeading drop-shadow-xl xm:text-7xl ">
-                    WELCOME <br /> TO THE
-                    <br /> TRIFUSION
+                    WELCOME TO <br /> THE
+                    TRIFUSION
                   </h1>
                   <h1 className="font-bold text-3xl text-[#944E63] font-basicHeading pt-4 xm:text-4xl">
                     EXPERTIES IN{" "}
