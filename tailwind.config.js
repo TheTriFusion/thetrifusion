@@ -17,11 +17,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        'mainHeading' : ['Madimi One', 'sans-serif'],
-        'basicHeading' : ['Anta ', 'sans-serif'],
-        'content': ['Open Sans', 'sans-serif'],
-        'semiOne' : ['Protest Riot', 'sans-serif'],
-        'semiTwo' : ['Inconsolata', 'sans-serif'],
+        'space': ['Space Grotesk', 'sans-serif'],
+        'inconsolata' : ['Inconsolata', 'sans-serif'],
       },
       backgroundImage: {
         //'mainBackground' : "url('src/images/main-box.png')",
